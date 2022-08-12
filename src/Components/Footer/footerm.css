@@ -1,0 +1,62 @@
+
+@media (min-width:600px) and (max-width:1482px){
+    .footersec{
+        width: 90vw;
+        
+    }
+    .footer{
+        margin-top: 3rem;
+    }
+    .company{
+    width:17vw;
+    }
+    .Follow h2{
+        margin-left: 1rem;
+    }
+    .Follow{
+       
+        width: 39vw;
+    }
+    .icons{
+        
+        margin-left: 2rem;
+       
+    }
+   
+}
+@media only screen and (max-width:599px){
+    .footersec{
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+        
+    }
+    .footer{
+     margin-top: 18rem;
+     height: 100vh;
+     justify-content: flex-start;
+     align-items: flex-start;
+    }
+    .company{
+        width:100vw;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        margin-top: 2rem;
+        }
+        .Follow{
+            width: 100vw;
+        }
+        .Follow h2{
+            font-size: x-large;
+        }
+        .icons{
+            
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 30vw;
+        }
+}

@@ -1,0 +1,10 @@
+@media only screen and (max-width:609px){
+    .btn-grp1{
+        margin-top:-4rem;
+    }
+    .btn-grp1 button{
+        width: 22vw;
+        height:7vh;
+        
+    }
+}

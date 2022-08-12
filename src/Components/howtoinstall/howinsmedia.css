@@ -1,0 +1,120 @@
+@media (min-width:457px) and (max-width:700px){
+    .H-main{
+        
+        width: 100vw;
+        height: 100vh;
+       
+    }
+    .H-upper i{
+        font-size: 2rem;
+    }
+    .H-lower i{
+        font-size: 2rem;
+    }
+    .icon{
+       
+        padding-top: 3rem;
+        width:30vw ;
+        
+    
+    }
+    .H-main h4{
+       
+       
+       
+        margin-top: 3rem;
+    
+    }
+  
+    .H-upper{
+       
+        width: 100vw;
+        height: 90vh;
+     
+    }
+    .H-card{
+      
+        width:30vw ;
+        height: 50vh;
+      
+    
+    }
+    .H-lower{
+        
+    
+        width: 100vw;
+        height: 90vh;
+        margin-top: 3rem;
+    
+    }
+    .H-upper p{
+       
+        width: 30vw;
+        margin-top: 4rem;
+        color: var(--text-color);
+      
+    }
+    .H-lower p{
+       
+        width: 30vw;
+        margin-top: 4rem;
+        color: var(--text-color);
+       
+    }
+
+}
+@media only screen and (max-width:456px){
+    .H-upper{
+    flex-direction:column;
+    height: 150vh;
+    width: 100vw;
+    margin-top: 6rem;
+    }
+    .H-lower{
+        flex-direction: column;
+        height: 150vh;
+        width: 100vw;
+        margin-top: 4rem;
+        
+    }
+    .H-main{
+       
+        width: 100vw;
+        height: 300vh;
+       
+    }
+    .H-card{
+        margin-top: 10rem;
+        width:70vw ;
+        height: 55vh;
+        margin-top: 1rem;
+       
+    }
+    
+    .icon{
+    width: 70vw;
+   padding-top: 5rem;
+    }
+    
+    .H-main h4{
+       
+       
+       
+        margin-top: 4rem;
+    
+    }
+    .H-upper p{
+       
+        width: 70vw;
+      
+    }
+    .H-lower p{
+       
+        width: 70vw;
+       
+    }
+    .head{
+       
+        margin-top: 15rem;
+    }
+}

@@ -1,0 +1,53 @@
+@media (min-width:600px) and (max-width:900px){
+  .a1-left{
+    height: 95vh;
+  }
+  .a1-right{
+    height: 92vh;
+  }
+  .a1-left p{
+    font-size: 1rem;
+  }
+  .a1-right img{
+    height: 90vh;
+  }
+
+
+}
+
+@media only screen and (max-width:599px){
+    .A-main1{
+        flex-direction: column;
+        height: 100vh;
+
+    }
+    .a1-left{
+      
+      width: 100vw;
+     
+      margin-top: 3rem;
+    }
+    .a1-right{
+     width: 100vw;
+     margin-top: 10rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .a1-right img{
+        width: 80vw;
+        height: 40vh;
+    }
+    .a1-left h3 {
+        width: 100vw;
+    }
+    .a1-left p{
+        width:100vw;
+        font-size: 1rem;
+    }
+    .a1-left h1{
+        width: 100vw;
+    }
+  
+  
+  }

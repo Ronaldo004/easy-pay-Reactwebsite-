@@ -1,0 +1,91 @@
+header{
+    background-color: var(--bgcolor);
+    min-height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: space-around;
+    
+  
+}
+.h-left{
+
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 10rem;
+}
+.h-left h1{
+    
+    width: 35vw;
+    font-weight: bold;
+    color: var(--main-text-color);
+    
+}
+.inp-btn{
+    
+    width: 35vw;
+  
+}
+.h-input{
+    height: 3rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+.h-left h4{
+  
+    width: 35vw;
+    color: var(--main-text-color);
+}
+.h-btn{
+    width: 7rem;
+    height: 3rem;
+    position: absolute;
+    left: 250px;
+    border-radius:2rem ;
+    background-color: var(--primary-color);
+    color: azure;
+    
+}
+.h-left p{
+  
+    width: 35vw;
+    color: var(--text-color);
+}
+.h-right{
+   
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 2rem;
+    display: flex;
+   
+    
+  
+}
+.h-right img{
+    border-radius: 2rem;
+    margin-top: 10rem;
+   width: 65%;
+   height: 80%;
+   box-shadow: 0 0.8rem 0.8rem rgba(0, 0,0, 0.3);
+
+}
+.h-right>:nth-child(2){
+    width: 40%;
+    height: 35%;
+   position: relative;
+   top: -15rem;
+   left:-9rem;
+}
+.h-btn:hover{
+    background-color: antiquewhite;
+    color: black;
+}

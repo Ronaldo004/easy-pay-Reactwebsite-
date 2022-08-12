@@ -1,0 +1,55 @@
+.A-main1{
+    
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:1rem;
+}
+.a1head{
+    display: flex;
+    justify-content: center;
+    
+}
+.a1-right{
+    width:33vw;
+    
+    height: 80vh ;
+}
+.a1-right img{
+    width: 33vw;
+    height: 80vh;
+    border-radius: 2rem;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0,0, 0.2);
+}
+
+.a1-left{
+    width: 60vw;
+    
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0,0, 0.2);
+
+}
+.a1-left h3{
+   
+    width:55vw
+    
+}
+.a1-left h1{
+   
+    width:55vw
+    
+}  
+.a1-left p{
+   
+    width:55vw;
+    font-size:2rem;
+    font-weight: lighter;
+    color: var(--text-color);
+    
+} 

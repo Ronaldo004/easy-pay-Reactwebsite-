@@ -1,0 +1,80 @@
+.signup-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-form{
+    width: 100vw;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btngrp{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+    gap:1rem;
+
+}
+.btn1{
+    width: 20vw;
+    height:8vh;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: aliceblue;
+    font-size: 2rem;
+}
+.btn3{
+    border: none;
+    margin-top: -1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--primary-color);
+}
+.gp{
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gp p{
+    font-size: 1.3rem;
+}
+.btngrp>:nth-child(3){
+    font-size: 3rem;
+    color: black;
+}
+.btn2{
+    width: 20vw;
+    height:8vh;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: aliceblue;
+    font-size: 2rem;
+}
+.btn1:hover{
+   background-color: bisque;
+   color: black;
+}
+.btn2:hover{
+    background-color: bisque;
+    color: black;
+ }
+.m-form input{
+    width: 60vw;
+    height: 10vh;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+}

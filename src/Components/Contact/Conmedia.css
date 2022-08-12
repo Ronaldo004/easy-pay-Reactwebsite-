@@ -1,0 +1,91 @@
+@media (min-width:600px) and (max-width:830px){
+    .Contact-main{
+        margin-top: 3rem;
+    }
+    .checkbox>:nth-child(1)
+{
+    margin-top: 0.2rem;
+    margin-left: 0rem;
+}
+.checkbox>:nth-child(2)
+{
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    
+}
+.C-left{
+    height: 75vh;
+}
+.C-right{
+    height: 75vh;
+
+}
+}
+@media only screen and (max-width:599px){
+    .Contact-main{
+        margin-top: 17rem;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .checkbox>:nth-child(1)
+{
+    margin-top: 0.2rem;
+    margin-left: 0rem;
+}
+.checkbox>:nth-child(2)
+{
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    
+}
+.C-right{
+    width: 100vw;
+    height: 100vh;
+}
+.C-right img{
+    width: 100vw;
+    height: 30vh;
+}
+
+.if-sec>:nth-child(1){
+    width:47vw ;
+    height: 7vh;
+}
+.if-sec>:nth-child(2){
+    width:47vw ;
+    height: 7vh;
+}
+.if-sec2>:nth-child(1){
+    width:47vw ;
+    height: 7vh;
+}
+.if-sec2>:nth-child(2){
+    width:47vw ;
+    height: 7vh;
+}
+.if-sec3>:nth-child(1){
+    width:98vw ;
+    height: 7vh;
+}
+.if-sec4>:nth-child(1){
+    width:98vw ;
+    height: 15vh;
+}
+.C-btn>:nth-child(1){
+    width: 98vw;
+   
+}
+.checkbox{
+    width: 98vw;
+}
+.C-btn{
+    width: 98vw;
+}
+.C-left{
+    margin-top: 10rem;
+    width: 100vw;
+    height: 75vh;
+
+}
+}
+

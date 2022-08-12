@@ -1,0 +1,64 @@
+@media (min-width:562px) and (max-width:1440px){
+    .btngrp{
+        
+   
+    height: 5rem;
+    display: flex;
+    width: 90vw;
+    position: relative;
+    left:3rem;
+    
+    
+    }
+    .m-form{
+        width: 100vw;
+        height: 50vh;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+}
+
+
+@media (min-width:448px) and (max-width:561px){
+    .btngrp{
+  
+    height: 5rem;
+    display: flex;
+    width: 90vw;
+    position: relative;
+    left:3rem;
+    
+    
+    }
+   
+  
+}
+@media only screen and (max-width:447px){
+    .btngrp{
+        flex-direction: column;
+     
+        height: 30vh;
+        margin-left: -1rem;
+        
+    }
+  .btn1{
+    width:10rem;
+  } 
+  .btn2{
+    width: 10rem;
+  
+    
+  }
+  .gp{
+   
+    margin-top: 1rem;
+  }
+
+    
+
+ 
+}

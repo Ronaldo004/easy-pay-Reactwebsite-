@@ -1,0 +1,156 @@
+.Contact-main{
+   
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  
+
+}
+.C-right{
+    width: 30vw;
+    height:88vh;
+    
+    
+}
+.C-image{
+    position: relative;
+    top:8rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.C-right img{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 2rem;
+}
+.C-right h3{
+    
+    
+    font-weight: bold;
+    position: relative;
+    top:5rem;
+    color:#333333;
+}
+.C-right p{
+    
+    position: relative;
+    top:7rem;
+    color: var(--text-color);
+    font-weight: bold;
+    
+}
+.if-sec{
+    
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top:4rem;
+
+}
+.if-sec2{
+    
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top:7rem;
+
+}
+.if-sec3{
+    
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top:10rem;
+
+}
+.if-sec4{
+  
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top:11rem;
+
+}
+.if-sec>:nth-child(1){
+    width:23vw ;
+    height: 7vh;
+}
+.if-sec>:nth-child(2){
+    width:23vw ;
+    height: 7vh;
+}
+
+.if-sec2>:nth-child(1){
+    width:23vw ;
+    height: 7vh;
+}
+.if-sec2>:nth-child(2){
+    width:23vw ;
+    height: 7vh;
+}
+.if-sec3>:nth-child(1){
+    width:48vw ;
+    height: 7vh;
+}
+.if-sec4>:nth-child(1){
+    width:48vw ;
+    height: 19vh;
+}
+
+.C-left{
+    width: 50vw;
+    height:89vh;
+    
+}
+.checkbox{
+    
+    position: relative;
+    top:11rem;
+    
+    width: 49vw;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox>:nth-child(1)
+{
+    margin-top: 0.2rem;
+    margin-left: -3rem;
+}
+.checkbox>:nth-child(2)
+{
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    margin-top: 1rem;
+}
+.C-btn{
+    position:relative;
+    top:11.5rem;
+    
+    width: 50vw;
+}
+.C-btn>:nth-child(1){
+    width: 50vw;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: aliceblue;
+}
+.C-btn>:nth-child(1):hover{
+    background-color:bisque;
+    color: #333333;
+}

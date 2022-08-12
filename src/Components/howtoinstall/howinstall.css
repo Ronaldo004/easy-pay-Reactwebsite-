@@ -1,0 +1,82 @@
+.H-main{
+   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.H-upper i{
+    font-size: 2rem;
+}
+.H-lower i{
+    font-size: 2rem;
+}
+.icon{
+    margin-top: 4rem;
+    width:20vw ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--primary-color)
+}
+.head{
+    position: relative;
+    top:-3rem;
+}
+.H-main h4{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.H-upper p{
+    
+    width: 20vw;
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+.H-lower p{
+    
+    width: 20vw;
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+.H-upper{
+   
+    
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.H-card{
+    
+    width:20vw ;
+    height: 45vh;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.3);
+
+}
+.H-lower{
+    
+   
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.H-card:hover{
+    background-color:aliceblue;
+    cursor: pointer;
+}

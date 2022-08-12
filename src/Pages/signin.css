@@ -1,0 +1,50 @@
+.signin-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-form1{
+    width: 100vw;
+    height: 50vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.m-form1 input{
+    width: 50vw;
+    height: 7vh;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+}
+.btn-grp1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap:2rem;
+
+    margin-top:-4rem;
+    
+
+}
+.btn-grp1>:nth-child(3){
+   
+    margin-top:2rem;
+    font-size: 1.5rem;
+}
+.btn-grp1 button{
+    width: 15vw;
+    height:6vh;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: aliceblue;
+    font-size: 1rem;
+}
+.btn-grp1 button:hover{
+    background-color: bisque;
+    color: black;
+}

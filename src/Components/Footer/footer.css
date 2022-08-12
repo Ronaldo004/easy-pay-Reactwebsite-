@@ -1,0 +1,58 @@
+.footer{
+  
+    width:100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.footersec{
+    width: 70vw;
+    height: 20vh;
+  
+    display: flex;
+}
+.company h3{
+    color:azure;
+}
+.company{
+    width: 15vw;
+    
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:azure;
+}
+.Follow{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Follow h2{
+    color:azure;
+}
+.Follow i{
+    font-size: 3rem;
+    color:azure;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 10vw;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.copyrights p{
+    margin-top: 0.7rem;
+    color: aliceblue;
+}
