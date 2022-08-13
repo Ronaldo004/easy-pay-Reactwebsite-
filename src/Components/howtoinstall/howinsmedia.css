@@ -80,7 +80,12 @@
     .H-main{
        
         width: 100vw;
-        height: 300vh;
+        height: 350vh;
+        
+        margin-top: -10rem;
+        
+      
+    
        
     }
     .H-card{
@@ -116,5 +121,6 @@
     .head{
        
         margin-top: 15rem;
+        
     }
 }

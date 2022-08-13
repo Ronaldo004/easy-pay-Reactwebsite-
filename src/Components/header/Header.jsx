@@ -1,8 +1,10 @@
 import React from 'react'
-import epay1 from '../images/Epay1.jpg'
-import epay2 from '../images/epay2.jpg'
+
+
 import './header.css'
 import './media.css'
+import EPAY1 from '../images/Epay1.jpg'
+import Epay2 from '../images/Epay2.jpg'
 
 const Header = () => {
     return (
@@ -21,9 +23,10 @@ const Header = () => {
                         <button className='h-btn'>Get it now</button>
                         </div>
                 </div>
-                <div className="h-right">
-                    <img src={epay2} alt="" />
-                    <img src={epay1} alt="" />
+                <div className="div-right">
+                    <img src={EPAY1} alt="" />
+                    <img src={Epay2} alt="" />
+                 
 
                 </div>
             </header>

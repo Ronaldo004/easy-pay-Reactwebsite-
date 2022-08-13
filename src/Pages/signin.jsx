@@ -30,13 +30,12 @@ const Signin = () => {
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
     let firebase=useFirebase();
+    
 
     
     let Signinuser=()=>{
 
-      { !user?firebase.signin(email,password).then((value)=>alert("sign in successfully)")).then((value)=>{
-            window.location.href="http://localhost:3000/"
-          })
+      { !user?firebase.signin(email,password).then((value)=>alert("sign in successfully)"))
           .catch((err)=>{
             alert(err)
           }):alert("user already sign in")

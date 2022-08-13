@@ -27,10 +27,9 @@ let Adduser = (e)=>{
   if(email && password && password===cpass && password.length>=6 && (password.includes('!') || password.includes('@') || password.includes('#') || password.includes('$') || password.includes('%') || password.includes('^') || password.includes('&') || password.includes('*') || password.includes('(') || password.includes(')'))){
   firebase.signup(email,password)
   .then((value)=>alert("Sign up successfully"))
-  .then((value)=>{
-    window.location.href="http://localhost:3000/"
+  
 
-  })
+  
   .catch((err)=>{
     alert('email already exist try other email && check you internet connection')
   });

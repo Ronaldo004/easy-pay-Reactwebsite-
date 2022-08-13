@@ -1,14 +1,15 @@
-@media (min-width:700px) and (max-width:820px){
-    .h-right img{
-        width: 70%;
-        height: 60vh;
+@media (min-width:700px) and (max-width:992px){
+    .div-right img{
+        width: 40vw;
+        height: 45vh;
         margin-top: 3rem;
     }
-    .h-right>:nth-child(2){
-        top:-12rem;
+    .div-right>:nth-child(2){
        
-        left: -6rem;
-        width: 60% ;
+         top:-19rem;
+        left: -9rem;
+        width: 20vw ;
+        height: 20vh;
         
     }
     .h-left{
@@ -22,18 +23,22 @@
     .header{
         height: 100vh;
     }
-    .h-right img{
+    
+    .div-right img{
        
-        width: 75%;
-        height: 50vh;
+        width: 40vw;
+        height: 40vh;
         margin-top: 3rem;
+        
        
     }
-    .h-right>:nth-child(2){
-        top:-12rem;
-        height: 35%;
-        left: -6rem;
-        width: 60% ;
+    .div-right>:nth-child(2){
+        top:-10rem;
+        width: 22vw;
+        height: 22vh;
+        left: -8rem;
+        top:-14rem;
+        
         
     }
     .h-left{
@@ -43,28 +48,42 @@
         left: 190px;
     }
 }
-@media only screen and (max-width:599px){
+@media only screen and (max-width:600px){
     header{
         flex-direction: column;
         
-    }
-    .h-left{
-        width: 100vw;
-        padding-top: -1rem;
+      
+        height: 100vh;
         
     }
-    .h-right{
-        width:100vw
+    .h-left{
+        height: 50vh;
+        width: 100vw;
+       
+        margin-top: -9rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+  
+        
     }
-    .h-right img{
-        width: 75%;
-        height: 60%;
+    .div-right{
+        
+        width:100vw;
+        height: 50vh;
+        
+       
+    }
+    .div-right img{
+        width: 58vw;
+        height: 50vh;
         top:0rem;
-        margin-right: -6rem;
+        margin-top: -4rem;
+        margin-right: -2rem;
+       
     }
     .h-left h1{
-    
-        width: 80vw;
+        
+        width: 100vw;
         font-weight: bold;
         color: var(--main-text-color);
         
@@ -81,21 +100,21 @@
     }
     .h-left h4{
         
-        width: 80vw;
+        width: 100vw;
         color: var(--main-text-color);
     }
     .h-left p{
-        width: 80vw;
+        width: 100vw;
 
     }
     .h-btn{
-        left: 190px;
+        left: 160px;
     }
-    .h-right>:nth-child(2){
-        top:-9rem;
-        height: 35%;
-        left: -3rem;
-        width: 35% ;
+    .div-right>:nth-child(2){
+        top:-14rem;
+        height: 25vh;
+        left: -5rem;
+        width: 37vw ;
         
     }
 

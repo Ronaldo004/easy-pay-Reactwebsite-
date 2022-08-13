@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import './navbar.css'
+import './navm.css'
+
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import {useFirebase} from '../Context/context'
